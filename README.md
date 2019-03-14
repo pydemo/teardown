@@ -9,9 +9,9 @@ Setup/teardown cloud reporting using Python/sqlite
 usecase:
     comments: Join Athena and Snowflae datasets.
     left: |
-      Select dt, count(1) cnt from dcm.user_stream_detail group by 1;
+      Select dt, count(1) cnt from athena.table group by 1;
     right: |
-      select dt, count(1) cnt from marketing_dev.publish.user_stream_detail group by 1;
+      select dt, count(1) cnt from snowflake.table group by 1;
     comparison: |
       SELECT a.dt, a.cnt, b.cnt, a.cnt-b.cnt diff
       FROM left a, right b
