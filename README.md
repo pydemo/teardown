@@ -7,7 +7,7 @@ Setup/teardown cloud reporting using Python/sqlite
 
 ```yaml
 usecase:
-    comments: Join Athena and Snowflae datasets.
+    comments: Join Athena and Snowflake datasets.
     left: |
       Select dt, count(1) cnt from athena.table group by 1;
     right: |
