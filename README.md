@@ -7,7 +7,7 @@ Setup/teardown cloud reporting using Python/sqlite
 
 ```yaml
 usecase:
-    comments: UC#2 using Python/ Summarize the recon.
+    comments: Join Athena and Snowflae datasets.
     left: |
       Select dt, count(1) cnt from dcm.user_stream_detail group by 1;
     right: |
