@@ -1,8 +1,6 @@
 # teardown
 Setup/teardown cloud reporting using Python/sqlite
 
-
-# USECASE 1
 **Left**: Athena, **Right**: Snowflake, **Teardown**: Sqlite (local)
 
 ```yaml
