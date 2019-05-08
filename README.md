@@ -62,3 +62,6 @@ time python3.7 teardown.py  -cf config/DEV.config.yml
     | 2019   | 02          | 2019-02-27 | 1,564,619.0 | 1,580,048.0 | -15,429.0  |
     | 2019   | 02          | 2019-02-28 | 873,560.0   | 1,510,337.0 | -636,777.0 |
     +--------+-------------+------------+-------------+-------------+------------+
+    
+    [<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
+
